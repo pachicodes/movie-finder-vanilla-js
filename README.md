@@ -15,13 +15,13 @@ I spent around 3.5 hours on this challenge.
 I learned to prioritize. I was initially planning to do this with React, but due to personal circumnstances I had less time than I would like, so I changed my plan and decided to go on a Route that I was more comfortable with and sure I could delivery my best work by the deadline, while with React, since it is new to me, I couldn't guarante the quality of the final product.
 
 ### What do you like about your implementation?
-
+My implementation is simple and straightforward, yet it is functional and a good display of my code. 
 
 ### What you would change if you were going to do it again?
-I intent to re-do this project with React soon for pratice purposes.
+I intent to re-do this project with React soon for pratice purposes. Also, spending a little more time on the design.
 
 ### How did you make your design decisions?
-
+I didn't want to spend much time on design, yet I wanted the app to look good, so I just looked at other projects I had done, choose a color theme that had to do with the topic (movie) and kept it minimalistic.
 
 ## Built With
 
