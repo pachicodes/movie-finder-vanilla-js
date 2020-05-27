@@ -33,8 +33,14 @@ a {
   margin: auto;
   padding-top: 20px;
   width: 80%;
+  min-height: 80vh;
   text-align: center;
   background-color: var(--bg);
+}
+
+.form {
+  margin: 20px;
+  padding: 20px;
 }
 
 .finder__title {
@@ -48,9 +54,8 @@ a {
   margin: 20px;
 }
 
-.form {
-  margin: 20px;
-  padding: 20px;
+.finder__icon {
+  margin: 30px;
 }
 
 .form__btn {
@@ -70,13 +75,12 @@ a {
 .form__btn:hover {
   padding: 8px 26px;
   font-size: 24px;
-
   box-shadow: 2px 2px 2px #3a302c;
 }
 
 .footer {
   color: var(--bg);
   text-align: center;
-  height: 50px;
-  padding: 20px;
+  height: 30px;
+  padding: 10px;
 }

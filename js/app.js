@@ -1,10 +1,11 @@
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", function () {
-  console.log("It works!");
+  //console.log("It works!");
+
   const film = document.getElementById("fname");
   const movie = film.value;
-  console.log(movie);
+  //console.log(movie);
 
   const response = fetch(
     `https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/${movie}`,
@@ -33,21 +34,23 @@ btn.addEventListener("click", function () {
     const poster = response.poster;
     const plot = response.plot;
 
+    //Creating the HTML elements
     const elementTitle = document.createElement("h2");
     const textTitle = document.createTextNode(`${title}`);
-
-    const picture = document.createElement("img");
-    picture.setAttribute("src", poster);
 
     const element = document.createElement("p");
     const text = document.createTextNode(`"${plot}"`);
 
+    const picture = document.createElement("img");
+    picture.setAttribute("src", poster);
+
+    //Appeding Elements
     elementTitle.append(textTitle);
     res.append(elementTitle);
 
-    res.append(picture);
-
     element.append(text);
     res.append(element);
+
+    res.append(picture);
   });
 });
